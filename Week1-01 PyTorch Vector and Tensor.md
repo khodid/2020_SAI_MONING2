@@ -1,8 +1,6 @@
 # PyTorch: Tensor Manipulation
 
-![1](C:\Users\35896\Desktop\1.PNG)
-
-(이미지 출처: 강의영상 Lab 01-1)
+![1](https://res.cloudinary.com/practicaldev/image/fetch/s--oTgfo1EL--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://raw.githubusercontent.com/adhiraiyan/DeepLearningWithTF2.0/master/notebooks/figures/fig0201a.png)
 
 - 0차원: 스칼라 (Scalar)
   1차원: 벡터 (Vector)
@@ -129,7 +127,9 @@
   # 원소의 개수가 view 함수 안에 들어가는 숫자들의 곱으로 나눠지기만 하면 됨.
   ```
 
-  ![](C:\Users\35896\Desktop\제목 없음.png)
+  ![](https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile22.uf.tistory.com%2Fimage%2F9966623F5B054EBF064C74)
+
+  ![](https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile6.uf.tistory.com%2Fimage%2F99E51D3F5B054EC033B6DA)
 
 - Squeeze : view와 유사. 다만 squeeze는 원소가 하나뿐인 dimension을 없앤 Tensor를 뱉어낸다.
   (3X1X4 Tensor라면 3X4로 바꿔준다는 뜻.)
