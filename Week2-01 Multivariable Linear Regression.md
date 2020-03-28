@@ -7,10 +7,10 @@
 - Data (example)
 
   ``` python
-  x_train = torch.FloatTensor([[73, 80 75],
+  x_train = torch.FloatTensor([[73, 80, 75],
                               [93, 88, 93],
-                              [89, 91, 90]
-                              [96, 98, 100]
+                              [89, 91, 90],
+                              [96, 98, 100],
                               [73, 66, 70]])
   y_train = torch.FloatTensor([[152],[185],[180],[196],[142]])
   
@@ -58,10 +58,10 @@
 
 ``` python
 # 1. Data Initialization
-x_train = torch.FloatTensor([[73, 80 75],
+x_train = torch.FloatTensor([[73, 80, 75],
                             [93, 88, 93],
-                            [89, 91, 90]
-                            [96, 98, 100]
+                            [89, 91, 90],
+                            [96, 98, 100],
                             [73, 66, 70]])
 y_train = torch.FloatTensor([[152],[185],[180],[196],[142]])
 
@@ -83,7 +83,7 @@ for epoch in range(nb_epochs + 1):
     cost.backward()
     optimizer.step()
     
-    print('Epoch {:4d}\{} hypothesis: {} Cost: {:.6f}'.format(epoch, nb_epochs, hypothesis.squeeze().detach(), cost.item()))
+    print('Epoch {:4d}/{} hypothesis: {} Cost: {:.6f}'.format(epoch, nb_epochs, hypothesis.squeeze().detach(), cost.item()))
     
     
 ```
@@ -176,8 +176,8 @@ class MultivariateLinearRegressionModel(nn.Module):
 # Training Data
 x_train = torch.FloatTensor([[73, 80 75],
                             [93, 88, 93],
-                            [89, 91, 90]
-                            [96, 98, 100]
+                            [89, 91, 90],
+                            [96, 98, 100],
                             [73, 66, 70]])
 y_train = torch.FloatTensor([[152],[185],[180],[196],[142]])
 
@@ -198,6 +198,6 @@ for epoch in range(nb_epochs + 1):
     cost.backward()
     optimizer.step()
     
-    print('Epoch {:4d}\{} hypothesis: {} Cost: {:.6f}'.format(epoch, nb_epochs, hypothesis.squeeze().detach(), cost.item()))
+    print('Epoch {:4d}/{} hypothesis: {} Cost: {:.6f}'.format(epoch, nb_epochs, hypothesis.squeeze().detach(), cost.item()))
 ```
 
