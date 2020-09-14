@@ -18,3 +18,6 @@
 근데 그냥 딱 백지를 주고 코드 작성하라면 절대 못 할 것 같았음. 
 
 그걸 보완하려고 시작했던 하계 스터디 자료는 [khodid/2020Evening](https://github.com/khodid/2020Evening) 에 있음
+
+
+![모닝 로고](https://i.ibb.co/9h9pPTm/2020-Moning.png)
